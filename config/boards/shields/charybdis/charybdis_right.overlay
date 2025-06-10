@@ -33,7 +33,6 @@
 &trackball {
 	status = "okay"; //okay
 	irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        compatible = "pixart,pmw3610";
         reg = <0>;
         spi-max-frequency = <2000000>;
         automouse-layer = <5>;
